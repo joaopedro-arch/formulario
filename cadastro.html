@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/cadastro.css" type="text/css">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="img/undraw_shopping_re_3wst.svg" alt="imagem">
+            </div>
+            <!-- Fecha a div form-image -->
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+
+                        <div class="btnLogin">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+                    <!-- Fecha a div form-header -->
+
+                    <div class="input_group">
+                        <div class="input_box">
+                            <label for="nome">
+                                Primeiro Nome
+                            </label>
+                            <input type="text" id="nome" name="nome" placeholder="Informe seu primeiro nome" required>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="sobrenome">
+                                Sobrenome
+                            </label>
+                            <input type="text" id="sobrenome" name="sobrenome" placeholder="Informe seu sobrenome" required>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="sobrenome">
+                                Email
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="Informe seu email" required>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="numero">
+                                Celular
+                            </label>
+                            <input type="tel" id="numero" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+
+                        <div class="input_box">
+                            <label for="senha">
+                                Senha
+                            </label>
+                            <input type="password" id="senha" name="sobrenome" placeholder="Informe sua senha" required>
+                        </div>
+                        
+                        <div class="input_box">
+                            <label for="confirmesenha">
+                                Confirme sua Senha
+                            </label>
+                            <input type="password" id="confirmesenha" name="confirmPassword" placeholder="Confirme sua senha" required>
+                        </div>
+                    </div >
+                    <!-- Fecha a div input-group -->
+
+                    <div class="group_genero">
+                        <div class="title_genero">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="input_genero">
+                            <input type="radio" id="feminino" name="genero">
+                            <label for="feminino">
+                                Feminino
+                            </label>
+                        </div>
+
+                        <div class="input_genero">
+                            <input type="radio" id="masculino" name="genero">
+                            <label for="masculino">
+                                Masculino
+                            </label>
+                        </div>
+
+                        <div class="input_genero">
+                            <input type="radio" id="putros" name="genero">
+                            <label for="outros">
+                                Outros
+                            </label>
+                        </div>
+
+                        <div class="input_genero">
+                            <input type="radio" id="none" name="genero">
+                            <label for="none">
+                                Prefiro não dizer
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Fecha a div group-genero -->
+
+                    <div class="btn_continuar">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+                    <!-- Fecha a div btn_continuar -->
+                </form>
+            </div>
+            <!-- Fecha a div form -->
+        </div>
+        <!-- Fecha a div container -->
+    </body>
+</html>
